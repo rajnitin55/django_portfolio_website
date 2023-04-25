@@ -1,33 +1,32 @@
-body{
+body {
     background-color: rgb(102, 46, 46);
-    box-sizing:content-box; 
+    box-sizing: content-box;
 }
-.container{
+
+.container {
     height: 105vh;
     width: 100%;
-
-    border: 1px  solid white;
+    border: 1px solid white;
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
-    
-   
-   
 
 }
-.box{
-     margin-left: 155px; 
+
+.box {
+    margin-left: 155px;
     background: url(https://images.unsplash.com/photo-1612633876779-0540f1776b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
     height: 36vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size:contain;
-    box-sizing:content-box; 
-    
+    background-size: contain;
+    box-sizing: content-box;
+
 }
-.box h3{
-    margin-left : 10px ;
-    margin-top:33vh;
+
+.box h3 {
+    margin-left: 10px;
+    margin-top: 33vh;
     font-family: serif;
     color: white;
     text-align: center;
@@ -35,26 +34,28 @@ body{
 
 
 }
-.main{
+
+.main {
     border: 1px solid yellow;
 
 
-    height:24vh;
+    height: 24vh;
     width: 100%;
     /* display: inline-block; */
     /* margin-left: 45px; */
     color: yellow;
 }
 
-.main h2{
+.main h2 {
     margin-top: 35px;
     margin-left: 100px;
-    font-family: verdana ;
-    font-weight:bold;
+    font-family: verdana;
+    font-weight: bold;
     font-size: 40px;
 
 }
-.row1{
+
+.row1 {
     border: 3px solid;
     box-sizing: border-box;
 
@@ -62,13 +63,15 @@ body{
     height: 25vh;
 
 }
-.row1 h3{
+
+.row1 h3 {
     box-shadow: 32px salmon;
     margin-left: 300px;
     color: rgb(255, 255, 236);
     font-size: 35px;
 }
-.row2{
+
+.row2 {
     border: 3px solid;
     box-sizing: border-box;
 
@@ -76,7 +79,8 @@ body{
     height: 25vh;
 
 }
-.row2 h3{
+
+.row2 h3 {
     box-shadow: 32px salmon;
     margin-left: 300px;
     color: rgb(255, 255, 236);
